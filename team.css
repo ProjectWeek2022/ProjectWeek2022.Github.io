@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: orangered;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px;
+  position: fixed;
+  z-index: 1000;
+  border-bottom: 5px solid red;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(/afbeeldingen/MicrosoftTeams-image5.png);
+  background-repeat: no-repeat;
+  margin-top: -25px;
+}
+
+.balk {
+  width: auto;
+  height: 115px;
+}
+
+.headertitle {
+  font-size: 20px;
+  display: flex;
+  color: red;
+}
+
+.page {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.page1 {
+  width: 160px;
+  height: 50px;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+}
+
+.page:hover {
+  color: red;
+}
+
+.slideshowbody .img {
+  height: 1000px;
+  width: 100%;
+}
+
+.tussenbalk {
+  width: auto;
+  height: 40px;
+  background-color: black;
+  text-align: center;
+  font-size: 10px;
+  padding: 15px;
+}
+
+.logo1 {
+  width: 75px;
+  height: 60px;
+}
+
+.txt {
+  width: auto;
+  height: 1100px;
+  background-color: rgb(31, 30, 30);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.social {
+  width: auto;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+  margin-top: 40px;
+  text-align: center;
+}
+
+h3 {
+  margin: 10px;
+}
+
+.tussenbalk1 {
+  background-color: red;
+  width: auto;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socials {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+footer {
+  width: auto;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  font-size: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.pfp {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  margin-right: 23%;
+  border: 2px solid red;
+}
+
+body {
+  font-family: Arial;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid red;
+  float: left;
+  width: 500px;
+  background: black;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.txt1 {
+  width: 100%;
+  height: 100%;
+  padding-left: 125px;
+  padding-right: 125px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.aboutus {
+  width: 300px;
+  height: 500px;
+  background-color: red;
+  margin-top: 20px;
+  border: 4px solid black;
+  border-radius: 15px;
+}
+
+.afb {
+  width: 100%;
+  height: 200px;
+}
+
+/*Zoom on pics*/
+
+.zoom {
+  transition: transform 0.5s;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.C {
+  color: red;
+}
+
+h4 {
+  font-size: 13px;
+  color: rgb(51, 49, 49);
+  padding: 20px;
+}
+
+button {
+  width: 10px;
+  height: 10px;
+}

@@ -16,8 +16,8 @@
   align-items: center;
   font-size: 15px;
   padding: 10px;
-  text-align: center;
   position: fixed;
+  z-index: 1000;
   border-bottom: 5px solid red;
 }
 
@@ -42,12 +42,21 @@
 }
 
 .page {
-  width: 200px;
+  width: 100px;
   height: 50px;
   background-color: black;
   padding: 20px;
-  border-radius: 10px;
-  text-align: center
+  text-align: center;
+  font-size: 14px;
+}
+
+.page1 {
+  width: 160px;
+  height: 50px;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
 }
 
 li {
@@ -80,7 +89,7 @@ li {
 .txt {
   width: auto;
   height: 700px;
-  background-color: rgb(31, 30, 30);
+  background-color: black;
 }
 
 .social {
@@ -138,7 +147,7 @@ footer {
   border-radius: 50%;
   width: 55px;
   height: 55px;
-  margin-right: 1000px;
+  margin-right: 23%;
   border: 2px solid red;
 }
 
@@ -146,21 +155,22 @@ body {
   font-family: Arial;
 }
 
-form.example input[type=text] {
+form.example input[type="text"] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid red;
   float: left;
   width: 500px;
   background: black;
-  margin-right: 400px;
+  margin-right: 10px;
+  border-radius: 15px;
 }
 
 form.example button {
   float: left;
   width: 20%;
   padding: 10px;
-  background: #2196F3;
+  background: #2196f3;
   color: white;
   font-size: 17px;
   border: 1px solid grey;
@@ -176,4 +186,13 @@ form.example::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.txt1 {
+  width: 100%;
+  height: 100%;
+  padding-left: 125px;
+  padding-right: 125px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
