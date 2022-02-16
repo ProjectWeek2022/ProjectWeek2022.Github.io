@@ -196,3 +196,30 @@ form.example::after {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+
+@media all and (max-width: 420px) {
+  .video {
+    width: 100%;
+    height: 25%;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .txt {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .header {
+    width: 100%;
+    height: 50px;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .pagina {
+    font-size: 10px;
+  }
+}
