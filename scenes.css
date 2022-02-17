@@ -104,9 +104,9 @@ input[name="r"] {
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-image: url(afbeeldingen/MicrosoftTeams-image5.png);
   background-repeat: no-repeat;
   margin-top: -25px;
+  filter: grayscale(100%);
 }
 
 .balk {
@@ -236,4 +236,8 @@ body {
 .vid {
   width: 100%;
   height: 100%;
+}
+
+body {
+  background-color: black;
 }

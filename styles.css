@@ -25,7 +25,6 @@
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-image: url(afbeeldingen/MicrosoftTeams-image5.png);
   background-repeat: no-repeat;
   margin-top: -25px;
 }
@@ -222,4 +221,12 @@ form.example::after {
   .pagina {
     font-size: 10px;
   }
+}
+
+.pagina :hover {
+  color: white;
+}
+
+body {
+  background-color: black;
 }
