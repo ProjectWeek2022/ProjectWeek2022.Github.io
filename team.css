@@ -241,3 +241,7 @@ button {
 body {
   background-color: black;
 }
+
+.pagina:hover {
+  color: white;
+}

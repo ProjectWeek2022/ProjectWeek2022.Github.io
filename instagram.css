@@ -1,3 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.instagram_feed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  column-gap: 30px;
+  row-gap: 30px;
+  height: auto;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.instagram_feed div {
+  display: flex;
+  flex: 1;
+  white-space: nowrap;
+  width: 30%;
+  height: 100%;
+  min-width: 250px;
+}
+
+.instagram_new iframe {
+  height: 600px;
+  width: 100%;
+}
+
+.instagram_feed a {
+  width: 100%;
+}
+
+.instagram_feed img {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px 20px 0px;
+  }
+
+  .question p {
+    max-width: 350px;
+  }
+
+  .instagram_feed div {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -240,4 +304,50 @@ body {
 
 body {
   background-color: black;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid red;
+  float: left;
+  width: 500px;
+  background: black;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.txt1 {
+  width: 100%;
+  height: 100%;
+  padding-left: 125px;
+  padding-right: 125px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.pagina:hover {
+  color: white;
 }
