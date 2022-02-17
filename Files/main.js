@@ -6,7 +6,7 @@ if (feed.length != 0) {
     "IGQVJWNjFPNjJNdGNaQjVaWlYxUGxnQVBnN0hRY05oWW93ZAnBFZAkNKdFBfVXEzUHliZAUlCMmxaeF9EbkdiMUphVGhyZAnBWblNJb1BtUEVtS0djRGVlRHc2dHVkMTN5bmFvZAjRrcU5EMlFBWXB1aEFlNQZDZD";
   const fields =
     "id,media_type,media_url,thumbnail_url,timestamp,permalink,caption";
-  const limit = 12;
+  const limit = 5;
   let html = "";
 
   $.ajax({
