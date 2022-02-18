@@ -230,3 +230,7 @@ form.example::after {
 body {
   background-color: black;
 }
+
+.video1 {
+  padding: 20px;
+}
